@@ -9,7 +9,7 @@ import { ProductListComponent } from './product-list.component/product-list.comp
   //template: `<app-product></app-product>`,
   template: `<a routerLink="/" routerLinkActive="true">Home</a>  |  
   &nbsp;<a routerLink="/Login" routerLinkActive="true">Login</a>&nbsp; |
-  &nbsp;<a routerLink="/Sample" routerLinkActive="true">Sample</a> 
+  &nbsp;<a routerLink="/Sample" routerLinkActive="true">Sample</a>  &nbsp;
   <p>Fetching via Router <br><router-outlet></router-outlet>`,
   styleUrl: './app.css',
   imports: [RouterOutlet, RouterLinkWithHref, RouterLinkActive]
