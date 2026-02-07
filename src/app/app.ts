@@ -7,10 +7,10 @@ import { ProductListComponent } from './product-list.component/product-list.comp
   selector: 'app-root',
   
   //template: `<app-product></app-product>`,
-  template: `<a routerLink="/" routerLinkActive="true">Home</a>  |  
+  template: `<a routerLink="/" routerLinkActive="true">Home</a>&nbsp;  |  
   &nbsp;<a routerLink="/Login" routerLinkActive="true">Login</a>&nbsp; |
   &nbsp;<a routerLink="/Sample" routerLinkActive="true">Sample</a>  &nbsp;
-  <p>Fetching via Router <br><router-outlet></router-outlet>`,
+  <p>Fetching via Router <br><router-outlet></router-outlet> &nbsp;Please Click here`,
   styleUrl: './app.css',
   imports: [RouterOutlet, RouterLinkWithHref, RouterLinkActive]
 })
